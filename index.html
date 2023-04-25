@@ -5,13 +5,20 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
+   <link rel="stylesheet" href="style/style.css">
    <script src="src/Components/CardNews.js" defer></script>
    <script src="src/Components/TituloDinamico.js" defer></script>
 </head>
 <body>
-   <card-news></card-news>
-   <titulo-dinamico titulo="Notícia Urgente"></titulo-dinamico>
-   <titulo-dinamico titulo="Novas Notícias"></titulo-dinamico>
-   <titulo-dinamico titulo="Outras Informações"></titulo-dinamico>
+   <div class="app-root">
+      <card-news 
+         autor="Roger Costa"
+         title="Darth Vader Contrata"
+         link-url="www.google.com"
+         photo="assets/images/darth-vader.jpg"
+         contet="Darth Vader procura devs que sabem trabalhar com Componentes"
+      ></card-news>
+   </div>
+   
 </body>
 </html>
